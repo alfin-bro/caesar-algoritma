@@ -8,7 +8,6 @@ const Enkripsi = () => {
   const [kunci, setKunci] = useState();
 
   const enkrip = () => {
-    console.log(typeof key);
     var str = string.toLowerCase();
     var key = parseInt(kunci);
     var result = "";
