@@ -30,8 +30,6 @@ const Dekripsi = () => {
         </div>
       );
     }, 1000);
-    console.log(result);
-    console.log(string);
   };
   return (
     <div>
