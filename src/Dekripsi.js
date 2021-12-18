@@ -42,7 +42,7 @@ const Dekripsi = () => {
       </div>
       <div className="form-input">
         <div className="input">
-          <label htmlFor="plaintext">Plaintext</label>
+          <label htmlFor="plaintext">Chippertext</label>
           <input
             onChange={(e) => setString(e.target.value)}
             type="text"
@@ -60,7 +60,7 @@ const Dekripsi = () => {
           />
         </div>
         <button onClick={() => enkrip()} className="btn-primary">
-          Enkripsi
+          Dekripsi
         </button>
         <Link className="btn-secondary" to="/choose">
           Kembali
