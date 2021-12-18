@@ -19,7 +19,7 @@ const Enkripsi = () => {
         var convert = abjad[encrypt];
         result = result + convert;
       } else {
-        result = result + " ";
+        result = result + "";
       }
     }
     setTimeout(() => {
